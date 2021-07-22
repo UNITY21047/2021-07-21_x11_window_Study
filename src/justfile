@@ -1,0 +1,11 @@
+files := "./*.c"
+compiler_options := "-lX11 -o ../bin/main"
+
+build:
+	gcc {{files}} {{compiler_options}}
+
+run: build
+	../bin/main
+
+clean:
+	rm ../bin/main
