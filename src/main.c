@@ -31,7 +31,7 @@ int main(void)
 
 		if(event.type == Expose)
 		{
-		//Will try to figure out how the cario library organ
+		//Will try to figure out how the cario library organizes thes draw functions. 
 		//	XFillRectangle(display, window, DefaultGC(display, screen_identifier), 20, 20, 10, 10);
 		//	XDrawString(display, window, DefaultGC(display, screen_identifier), 10, 50, message, strlen(message));
 		}
